@@ -1,0 +1,23 @@
+#include "EventFormulation.h"
+ 
+
+ EventFormulation::EventFormulation(int ED, int ID, int type, int mdur, int tloc,int sig):Event(ED, ID)
+ {
+	 char Type = type;
+	 int EvDay = ED;
+	 int  IDnumber = ID;
+	 int target = tloc;
+	 int Sig = sig;
+ }
+
+ void EventFormulation::Execute()
+ {
+	 if (TYP == 'p')
+	 {
+		 Polar_Mission * mission = new Polar_Missions();
+	 }
+	 if (TYP == 'e')
+	 {
+		 Emergency Mission* mission = new Emergency_Misions() ;
+	 }
+ }

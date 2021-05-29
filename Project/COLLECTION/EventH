@@ -1,0 +1,14 @@
+
+class Event
+{
+private:
+	int ED; //Event day
+	int ID;  //Mission ID
+public:
+	Event(int ed, int id) {
+		ED = ed; 
+		ID = id; 
+	}
+	virtual void Execute()=0;
+};
+
