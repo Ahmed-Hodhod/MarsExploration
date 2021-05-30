@@ -153,7 +153,10 @@
     <ClCompile Include="UI\Output.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ADT\LinkedList.h" />
+    <ClInclude Include="ADT\Node.h" />
     <ClInclude Include="ADT\PriQ.h" />
+    <ClInclude Include="ADT\Queue.h" />
     <ClInclude Include="Events\Events.h" />
     <ClInclude Include="Events\FormulationEvent.h" />
     <ClInclude Include="HeaderofHeaders.h" />

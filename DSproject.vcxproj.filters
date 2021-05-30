@@ -29,7 +29,7 @@
       <UniqueIdentifier>{acdf6e2f-9e54-4e98-bd75-958a691a6de0}</UniqueIdentifier>
     </Filter>
     <Filter Include="ADT">
-      <UniqueIdentifier>{77a1ce84-959a-416b-8c79-4febeeff4f28}</UniqueIdentifier>
+      <UniqueIdentifier>{1e8a9a9a-b14f-43e7-8b14-eba487e93ff2}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -44,9 +44,6 @@
     </ClInclude>
     <ClInclude Include="MarsStation.h">
       <Filter>BaseStation</Filter>
-    </ClInclude>
-    <ClInclude Include="ADT\PriQ.h">
-      <Filter>ADT</Filter>
     </ClInclude>
     <ClInclude Include="Rovers\EmergencyRovers.h">
       <Filter>Rovers</Filter>
@@ -77,6 +74,18 @@
     </ClInclude>
     <ClInclude Include="Events\FormulationEvent.h">
       <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="ADT\LinkedList.h">
+      <Filter>ADT</Filter>
+    </ClInclude>
+    <ClInclude Include="ADT\Node.h">
+      <Filter>ADT</Filter>
+    </ClInclude>
+    <ClInclude Include="ADT\PriQ.h">
+      <Filter>ADT</Filter>
+    </ClInclude>
+    <ClInclude Include="ADT\Queue.h">
+      <Filter>ADT</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

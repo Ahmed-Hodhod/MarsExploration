@@ -17,6 +17,7 @@ int MountainousMission::getM_Duration() const
 int MountainousMission::get_significance() const
 {
 	return signif;
+
 }
 
 MountainousMission::~MountainousMission()

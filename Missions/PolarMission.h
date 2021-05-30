@@ -5,10 +5,9 @@ class PolarMission :
     private Missions
 {
 public:
-	PolarMission(int Dform, int mID, int loc, int dur, int sig,Rovers* attachedrover);
-	 Rovers* get_rover();
-	 int getT_Loc() const { return T_Loc; }
-	 int getM_Duration() const;
+	//PolarMission(int Dform, int mID, int loc, int dur, int sig,Rovers* attachedrover);
+	using Missions::Missions; 
+
 	 int get_significance() const;
 };
 
