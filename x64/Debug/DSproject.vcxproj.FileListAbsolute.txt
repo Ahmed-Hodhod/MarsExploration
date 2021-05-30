@@ -1,0 +1,4 @@
+C:\Users\Owner\source\repos\DSproject\MarsExploration\x64\Debug\DSproject.exe
+C:\Users\Owner\source\repos\DSproject\MarsExploration\x64\Debug\DSproject.pdb
+C:\Users\alhdh\Downloads\Ozer_Structure\MarsExploration\x64\Debug\DSproject.exe
+C:\Users\alhdh\Downloads\Ozer_Structure\MarsExploration\x64\Debug\DSproject.pdb
