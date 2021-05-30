@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Missions">
+      <UniqueIdentifier>{2c01a434-f0bd-450c-9976-aaee9a2edb59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rovers">
+      <UniqueIdentifier>{1d149fa3-2dea-44da-a946-bfbd9b27238d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{3885a69f-7c81-4eaa-9bb3-45ff71c8cd3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BaseStation">
+      <UniqueIdentifier>{d43603c5-8449-4d17-b588-49c4bf41e658}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Events">
+      <UniqueIdentifier>{acdf6e2f-9e54-4e98-bd75-958a691a6de0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ADT">
+      <UniqueIdentifier>{1e8a9a9a-b14f-43e7-8b14-eba487e93ff2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="HeaderofHeaders.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Input.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Output.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="MarsStation.h">
+      <Filter>BaseStation</Filter>
+    </ClInclude>
+    <ClInclude Include="Rovers\EmergencyRovers.h">
+      <Filter>Rovers</Filter>
+    </ClInclude>
+    <ClInclude Include="Rovers\Rovers.h">
+      <Filter>Rovers</Filter>
+    </ClInclude>
+    <ClInclude Include="Rovers\PolarRovers.h">
+      <Filter>Rovers</Filter>
+    </ClInclude>
+    <ClInclude Include="Rovers\MountainousRovers.h">
+      <Filter>Rovers</Filter>
+    </ClInclude>
+    <ClInclude Include="Missions\EmergencyMission.h">
+      <Filter>Missions</Filter>
+    </ClInclude>
+    <ClInclude Include="Missions\Missions.h">
+      <Filter>Missions</Filter>
+    </ClInclude>
+    <ClInclude Include="Missions\MountainousMission.h">
+      <Filter>Missions</Filter>
+    </ClInclude>
+    <ClInclude Include="Missions\PolarMission.h">
+      <Filter>Missions</Filter>
+    </ClInclude>
+    <ClInclude Include="Events\Events.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Events\FormulationEvent.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="UI\Output.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Input.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="MarsStation.cpp">
+      <Filter>BaseStation</Filter>
+    </ClCompile>
+    <ClCompile Include="Rovers\MountainousRovers.cpp">
+      <Filter>Rovers</Filter>
+    </ClCompile>
+    <ClCompile Include="Rovers\PolarRovers.cpp">
+      <Filter>Rovers</Filter>
+    </ClCompile>
+    <ClCompile Include="Rovers\EmergencyRovers.cpp">
+      <Filter>Rovers</Filter>
+    </ClCompile>
+    <ClCompile Include="Missions\EmergencyMission.cpp">
+      <Filter>Missions</Filter>
+    </ClCompile>
+    <ClCompile Include="Missions\Missions.cpp">
+      <Filter>Missions</Filter>
+    </ClCompile>
+    <ClCompile Include="Missions\MountainousMission.cpp">
+      <Filter>Missions</Filter>
+    </ClCompile>
+    <ClCompile Include="Missions\PolarMission.cpp">
+      <Filter>Missions</Filter>
+    </ClCompile>
+    <ClCompile Include="Events\Events.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Events\FormulationEvent.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

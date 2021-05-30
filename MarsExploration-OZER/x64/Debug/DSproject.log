@@ -1,0 +1,3 @@
+﻿  Input.cpp
+C:\Users\alhdh\Downloads\latest\MarsExploration-OZER\UI\Input.cpp(22): warning C4715: 'Input::getMode': not all control paths return a value
+  DSproject.vcxproj -> C:\Users\alhdh\Downloads\latest\MarsExploration-OZER\x64\Debug\DSproject.exe
