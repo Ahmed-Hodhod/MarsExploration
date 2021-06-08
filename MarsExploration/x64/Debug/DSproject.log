@@ -1,0 +1,26 @@
+﻿  Events.cpp
+  FormulationEvent.cpp
+C:\Users\alhdh\Downloads\finalll\Rovers\Rovers.h(45,21): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\alhdh\Downloads\finalll\Events\FormulationEvent.cpp(20,20): warning C4101: 'mission': unreferenced local variable
+  MarsStation.cpp
+C:\Users\alhdh\Downloads\finalll\Rovers\Rovers.h(45,21): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  EmergencyMission.cpp
+C:\Users\alhdh\Downloads\finalll\Rovers\Rovers.h(45,21): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\alhdh\Downloads\finalll\Missions\EmergencyMission.cpp(95,16): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  Missions.cpp
+C:\Users\alhdh\Downloads\finalll\Rovers\Rovers.h(45,21): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  PolarMission.cpp
+C:\Users\alhdh\Downloads\finalll\Rovers\Rovers.h(45,21): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\alhdh\Downloads\finalll\Missions\PolarMission.cpp(87,16): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  EmergencyRovers.cpp
+C:\Users\alhdh\Downloads\finalll\Rovers\Rovers.h(45,21): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\alhdh\Downloads\finalll\Rovers\EmergencyRovers.cpp(35,13): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+  PolarRovers.cpp
+C:\Users\alhdh\Downloads\finalll\Rovers\Rovers.h(45,21): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\alhdh\Downloads\finalll\Rovers\PolarRovers.cpp(42,13): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+  Input.cpp
+  Output.cpp
+C:\Users\alhdh\Downloads\finalll\Rovers\Rovers.h(45,21): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  Generating Code...
+C:\Users\alhdh\Downloads\finalll\UI\Input.cpp(30): warning C4715: 'Input::getMode': not all control paths return a value
+  DSproject.vcxproj -> C:\Users\alhdh\Downloads\finalll\x64\Debug\DSproject.exe
