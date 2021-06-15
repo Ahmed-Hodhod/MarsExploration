@@ -416,10 +416,10 @@ inline void MarsStation::Operate(bool &executed , Modes MODE)
 			while (ptr->getNext())
 			{
 				
-
-				if (today == ptr->getNext()->getItem()->get_ExD() + ptr->getNext()->getItem()->get_FD())
+				rover = ptr->getNext()->getItem()->get_rover();
+				if (today == ptr->getNext()->getItem()->get_ExD() + rover->get_Assignment_Day())
 				{
-					rover = ptr->getNext()->getItem()->get_rover();
+					
 					// Update The Completed Mission 
 					// Increment the Completion day 
 					ptr->getNext()->getItem()->Update_CD();
@@ -459,7 +459,7 @@ inline void MarsStation::Operate(bool &executed , Modes MODE)
 			while (ptr->getNext())
 			{
 				rover = ptr->getNext()->getItem()->get_rover();
-				if (today == ptr->getNext()->getItem()->get_ExD() + ptr->getNext()->getItem()->get_FD())
+				if (today == ptr->getNext()->getItem()->get_ExD() + rover->get_Assignment_Day())
 				{
 
 					// Update The Completed Mission 
@@ -579,5 +579,12 @@ inline void MarsStation::Operate(bool &executed , Modes MODE)
 	*/
 
 
-inline void MarsStation::Update_Waiting_Missions() {			PNode<EmergencyMission*> *P = Waiting_Emergency_Missions.get_FrontPtr();		while (P) {			P->getItem()->Update_WD();			P = P->getNext(); 		}
-}
+inline void MarsStation::Update_Waiting_Missions() {
+	
+		PNode<EmergencyMission*> *P = Waiting_Emergency_Missions.get_FrontPtr();
+		while (P) {
+			P->getItem()->Update_WD();
+			P = P->getNext(); 
+		}
+
+}
